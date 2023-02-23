@@ -1,0 +1,23 @@
+@import '/src/scss/custom';
+
+.Welcome {
+  background-color: #000;
+  height: 100%;
+
+  .container,
+  .row {
+    height: 100%;
+  }
+
+  #welcome-title {
+    background: linear-gradient(to right, rgb(67, 205, 182), rgb(214, 69, 195));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p,
+  i {
+    color: white;
+  }
+}

@@ -1,0 +1,13 @@
+@import '/src/scss/custom';
+
+.Footer {
+  height: 120px;
+  background-color: $dark;
+  color: $light;
+  text-align: center;
+
+  span {
+    height: 120px;
+    line-height: 120px;
+  }
+}

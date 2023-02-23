@@ -1,0 +1,30 @@
+@import '/src/scss/custom';
+
+.Heading {
+  background: $dark;
+  color: $light;
+
+  .navbar {
+    transition: height 0.2s, transform 0.2s;
+
+    .nav-link:hover {
+      color: $lightblue;
+    }
+
+    img {
+      height: 30px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .Heading {
+    .navbar {
+      height: 57px;
+    }
+
+    .navbar:hover {
+      height: 65px;
+    }
+  }
+}
