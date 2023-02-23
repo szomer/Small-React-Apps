@@ -1,0 +1,39 @@
+@import '/src/scss/custom';
+
+.Login {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    color: white;
+  }
+
+  .form_box {
+    input {
+      min-width: 200px;
+      height: 55px;
+      line-height: 55px;
+      color: white;
+      background-color: #00000077;
+    }
+
+    label {
+      color: white;
+    }
+
+    button {
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: grey;
+    }
+
+    button:hover {
+      color: rgb(0, 0, 0);
+    }
+  }
+}
