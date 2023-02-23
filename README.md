@@ -1,5 +1,7 @@
 # React Apps
 
+Small project to improve my knowledge on React.
+
 ---
 
 ## 1. Learn-React
