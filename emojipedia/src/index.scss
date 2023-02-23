@@ -1,13 +1,13 @@
 @import './scss/custom';
+
 html,
-body,
-#root,
-#root > div {
+body {
+  height: 100%;
   height: 100vh;
+  margin: 0;
 }
 
 body {
-  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,7 +20,7 @@ body {
 /* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 2px rgb(171, 171, 171);
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 /* Handle */
@@ -31,5 +31,5 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: $light;
+  background: #fff;
 }

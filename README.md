@@ -15,3 +15,9 @@ Developing small project to improve my knowledge on React.
 ![alt Keeper App](img/keeper.jpg?raw=true)
 
 ---
+
+## 3. EmojiPedia
+
+![alt Emojipedia App](img/emojipedia.jpg?raw=true)
+
+---

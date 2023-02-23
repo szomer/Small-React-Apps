@@ -1,0 +1,12 @@
+@import '/src/scss/custom';
+
+.Header {
+  width: 100%;
+
+  span {
+    color: $headerColor;
+    margin: 0;
+    padding: 20px 0px;
+    text-align: center;
+  }
+}
