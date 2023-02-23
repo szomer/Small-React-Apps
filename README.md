@@ -1,6 +1,6 @@
 # React Apps
 
-Small project to improve my knowledge on React.
+Developing small project to improve my knowledge on React.
 
 ---
 
