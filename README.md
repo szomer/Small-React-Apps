@@ -27,3 +27,7 @@ Developing small projects to improve my knowledge on React.
 ![alt Login App](img/login.gif?raw=true)
 
 ---
+
+## 5. Blog
+
+![alt Login App](img/blog.png?raw=true)

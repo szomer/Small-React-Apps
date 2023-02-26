@@ -1,0 +1,15 @@
+.return-button {
+  text-decoration: none;
+  position: fixed;
+  bottom: 50px;
+  left: 30px;
+  font-size: 100px;
+  background: none;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.return-button:hover {
+  color: black;
+}

@@ -1,0 +1,14 @@
+.back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  font-size: 100px;
+  background: none;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.back-to-top:hover {
+  color: black;
+}

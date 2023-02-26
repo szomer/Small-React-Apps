@@ -18,8 +18,8 @@ function App() {
         <Header />
       </div>
       <div className='content_wrapper'>
-        <button onClick={onBtnclick} className='btn btn-light'>
-          Switch
+        <button onClick={onBtnclick} className='switchBtn btn btn-light'>
+          {registered ? 'Sign Up Instead' : 'Sign In Instead'}
         </button>
         <Login registered={registered} />
       </div>

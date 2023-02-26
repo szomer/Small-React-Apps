@@ -1,0 +1,15 @@
+.About {
+  width: fit-content;
+  max-width: 1000px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+.about-wrapper {
+  padding: 30px;
+  text-align: center;
+  margin: 60px;
+  background-color: rgba(255, 255, 255, 0.782);
+  box-shadow: 0px 0px 10px #000000;
+  border-radius: 8px;
+}
