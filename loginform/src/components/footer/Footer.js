@@ -3,9 +3,7 @@ import './footer.scss';
 function Footer() {
   return (
     <div className='Footer'>
-      <p className='lead fs-5'>
-        <smal>Log In &copy; All Rights Reserved.</smal>
-      </p>
+      <p className='fs-5'>Log In &copy; All Rights Reserved.</p>
     </div>
   );
 }

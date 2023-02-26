@@ -22,7 +22,7 @@ Developing small projects to improve my knowledge on React.
 
 ---
 
-## 4. Learn-React
+## 4. Log in
 
 ![alt Login App](img/login.gif?raw=true)
 
