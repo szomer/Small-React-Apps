@@ -31,3 +31,9 @@ Developing small projects to improve my knowledge on React.
 ## 5. Blog
 
 ![alt Login App](img/blog.png?raw=true)
+
+---
+
+## 5. Todo List
+
+![alt Login App](img/todo.jpg?raw=true)
