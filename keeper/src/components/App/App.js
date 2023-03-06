@@ -1,15 +1,43 @@
 import Header from '../Header/Header';
-import { col1, col2, col3 } from './notes';
+import { deafultNotes } from './notes';
+import Notes from '../Notes/Notes';
+import TextInput from '../TextInput/TextInput';
+import { useState } from 'react';
 
 function App() {
+  // Store notes and function for accessing notes
+  var [notes, setNotes] = useState(deafultNotes);
+
+  // Add note
+  function addNote(e, newNote) {
+    // Prevent default after button clicked
+    e.preventDefault();
+
+    // Set the ID
+    newNote.id = notes.length - 1;
+
+    // Add the new note to the list
+    setNotes((prevNotes) => [...prevNotes, newNote]);
+  }
+
+  // Delete note of given id
+  function deleteNote(e, deleteNoteId) {
+    // Prevent default after button clicked
+    e.preventDefault();
+
+    // Delete the note that equals the given note id
+    setNotes((prevNotes) => {
+      return prevNotes.filter((noteItem) => {
+        return noteItem.id !== deleteNoteId;
+      });
+    });
+  }
+
   return (
     <div className='App'>
       <Header />
-      <div className='notes'>
-        <div className='col1'>{col1}</div>
-        <div className='col2'>{col2}</div>
-        <div className='col3'>{col3}</div>
-      </div>
+      <TextInput onSubmitNote={addNote} />
+      <Notes notes={notes} onDeleteNote={deleteNote} />
     </div>
   );
 }
